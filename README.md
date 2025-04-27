@@ -15,16 +15,16 @@
       font-family: 'Pacifico', cursive;
       padding: 20px;
       overflow: hidden; /* Esconde balões que saem da tela */
-      color: #fff;
+      color: #000; /* Cor da fonte preta */
     }
 
     h1, h3 {
-      color: #fff;
+      color: #000; /* Cor das letras do título */
       margin-bottom: 10px;
     }
 
     p {
-      color: #fff;
+      color: #000; /* Cor do texto do parágrafo */
       font-size: 20px;
       margin: 20px;
       line-height: 1.6;
@@ -48,12 +48,6 @@
         opacity: 0;
       }
     }
-
-    /* Estilo para a imagem */
-    img {
-      width: 120px;
-      margin: 10px;
-    }
   </style>
 </head>
 <body>
@@ -64,9 +58,6 @@
   <div class="balao" style="left: 50%;"></div>
   <div class="balao" style="left: 70%;"></div>
   <div class="balao" style="left: 90%;"></div>
-
-  <!-- Imagem que você enviou -->
-  <img src="https://i.imgur.com/j8dLgCw.jpg" alt="Imagem de Aniversário">
 
   <h1>PARABÉNS!!!!!!!!</h1>
   <h3>PARABÉNS AMOR!</h3>
