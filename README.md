@@ -30,11 +30,6 @@
       line-height: 1.6;
     }
 
-    img {
-      width: 120px;
-      margin: 10px;
-    }
-
     /* Balões animados */
     .balao {
       position: absolute;
@@ -53,29 +48,30 @@
         opacity: 0;
       }
     }
+
+    /* Estilo para a imagem */
+    img {
+      width: 120px;
+      margin: 10px;
+    }
   </style>
 </head>
 <body>
 
   <!-- Balões subindo -->
-  <img src="https://i.imgur.com/XzkdrEz.png" class="balao" style="left: 10%;">
-  <img src="https://i.imgur.com/XzkdrEz.png" class="balao" style="left: 30%;">
-  <img src="https://i.imgur.com/XzkdrEz.png" class="balao" style="left: 50%;">
-  <img src="https://i.imgur.com/XzkdrEz.png" class="balao" style="left: 70%;">
-  <img src="https://i.imgur.com/XzkdrEz.png" class="balao" style="left: 90%;">
+  <div class="balao" style="left: 10%;"></div>
+  <div class="balao" style="left: 30%;"></div>
+  <div class="balao" style="left: 50%;"></div>
+  <div class="balao" style="left: 70%;"></div>
+  <div class="balao" style="left: 90%;"></div>
 
-  <!-- Chapéus de aniversário -->
-  <img src="https://i.imgur.com/xyAlXyk.png" alt="Chapéu de Aniversário">
-  <img src="https://i.imgur.com/xyAlXyk.png" alt="Chapéu de Aniversário">
-  
+  <!-- Imagem que você enviou -->
+  <img src="https://i.imgur.com/j8dLgCw.jpg" alt="Imagem de Aniversário">
+
   <h1>PARABÉNS!!!!!!!!</h1>
   <h3>PARABÉNS AMOR!</h3>
 
   <p>oooii meu amor, estou passando aqui para te parabenizar novamente e te dizer que eu estou muito orgulhosa de você. Você sempre me dá muito orgulho, sabia? Sempre que você sai para jogar com os seus amigos e vem me dizer "amor, ganhei essa", eu sempre dou um sorriso e fico contente por isso. Sei que é apenas um racha, que "não vale nada", mas na verdade vale sim. Isso mostra a sua habilidade, mostra o quão bom você é naquilo que você gosta, o que é incrível. Mas enfim, não estamos falando de racha agora, estamos falando de um campeonato real. Quando você vinha me atualizar sobre as suas vitórias, eu ficava cada hora mais feliz, e quando você disse que estava na semi, eu pulei de felicidade. Quando eu entrei naquela live e vi você, um sorriso se espalhou pelo meu rosto, eu fiquei tão feliz em ver você ali, fazendo o que você mais gosta de fazer, e principalmente, fazendo aquilo TÃO bem. Você é muito incrível, meu amor. Você tem um potencial enorme, e eu confio nele mais do que em qualquer coisa. Você se destacou hoje, meu bem, e vai sempre se destacar, pelo menos pra mim. Eu realmente estou muito orgulhosa de você, meu amor, você mereceu. Parabéns novamente, meu bem, amo você 🤍</p>
-
-  <!-- Mais chapéus embaixo -->
-  <img src="https://i.imgur.com/xyAlXyk.png" alt="Chapéu de Aniversário">
-  <img src="https://i.imgur.com/xyAlXyk.png" alt="Chapéu de Aniversário">
 
 </body>
 </html>
